@@ -19,7 +19,7 @@ This is a short presentation of the Shiny App developed for the Coursera "Develo
 
 ## About the app
 
-I create a simple app to calculate the p-valua for the mean, sd and sample mean provided by the user. The app also plots the area below or above the sample mean under the normal distribution.
+I create a simple app to calculate the p-value for the mean, sd and sample mean provided by the user. The app also plots the area below or above the sample mean under the normal distribution.
 
 
 --- .class #id 
@@ -31,7 +31,7 @@ I create a simple app to calculate the p-valua for the mean, sd and sample mean 
 
 --- .class #id 
 
-## Slide 4
+## Code
 
 This is a simplyfied code on the server.R file, with the values harcoded (no user inputs).
 
@@ -44,18 +44,6 @@ result <- paste("P-value =", signif(area, digits=3)); mtext(result,3); axis(1, p
 ```
 
 ![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png) 
-
-
-
---- .class #id 
-
-## Thank you for your attention
-
-
-
-
-
---- .class #id 
 
 
 

@@ -44,15 +44,3 @@ result <- paste("P-value =", signif(area, digits=3)); mtext(result,3); axis(1, p
 
 
 
---- .class #id 
-
-## Thank you for your attention
-
-
-
-
-
---- .class #id 
-
-
-
